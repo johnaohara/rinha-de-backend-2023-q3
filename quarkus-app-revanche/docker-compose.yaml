@@ -7,7 +7,7 @@ services:
       DB_HOST: localhost
       QUARKUS_LOG_CONSOLE_ENABLE: 'false'
       QUARKUS_LOG_FILE_ENABLE: 'false'
-      QUARKUS_DATASOURCE_REACTIVE_MAX_SIZE: 50
+      QUARKUS_DATASOURCE_REACTIVE_MAX_SIZE: 10
       QUARKUS_HTTP_PORT: 9990
     depends_on:
       db:
@@ -30,7 +30,7 @@ services:
       DB_HOST: localhost
       QUARKUS_LOG_CONSOLE_ENABLE: 'false'
       QUARKUS_LOG_FILE_ENABLE: 'false'
-      QUARKUS_DATASOURCE_REACTIVE_MAX_SIZE: 50
+      QUARKUS_DATASOURCE_REACTIVE_MAX_SIZE: 10
       QUARKUS_HTTP_PORT: 9991
     depends_on:
       db:
