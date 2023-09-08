@@ -10,7 +10,7 @@
 
 GATLING_BIN_DIR=gatling-3.9.5/bin
 
-WORKSPACE=~/des/rinha-de-backend-2023-q3-public/stress-test
+WORKSPACE=$(pwd)
 
 sh $GATLING_BIN_DIR/gatling.sh -rm local -s RinhaBackendSimulation \
     -rd "DESCRICAO" \
